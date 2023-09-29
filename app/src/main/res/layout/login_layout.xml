@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background= "#191970"
+    tools:context="tang.layout.Login_Activity">
+
+
+
+
+    <ImageView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:src="@drawable/flashsavitar"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="200dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TANGEDCO"
+        android:textSize="50dp"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+
+        />
+
+    <ImageView
+        android:layout_width="60sp"
+        android:layout_height="50sp"
+        android:src="@drawable/flashsavitar"
+        android:layout_marginLeft="120dp"
+        />
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:drawableEnd="@drawable/user"
+        android:hint="User Name"
+        android:textColorHint="#fff"
+        android:inputType="textEmailAddress"
+        android:padding="20sp"
+        />
+
+    <EditText
+        android:id="@+id/edtSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:textColorHint="#fff"
+        android:drawableEnd="@drawable/lock"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLength="80"
+        android:padding="20sp"
+
+
+        />
+    <EditText
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot your password?"
+        android:layout_marginLeft="110dp"
+
+        android:textColor="#fff"/>
+
+
+    <TextView
+        android:layout_width="721dp"
+        android:layout_height="275dp"
+
+        android:layout_marginTop="100dp"
+        android:background="#d84d78"
+        android:text="              Sign in"
+        android:textColor="#fff"
+        android:textSize="40dp"
+
+
+        />
+
+
+</LinearLayout>
